@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap');
+body{
+    font-family: 'Asap', sans-serif;
+}
+/* Image is a inline element */
+.container{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+
+/* 4 types of flex */
+.bar{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#button{
+    background-color: #ffcc00;
+    padding: 8px;
+}
+header img{
+    max-width: 100%;
+}
+
+div>img{
+    max-width: 30%;
+}
+
+#why{
+    min-height: 500px;
+    text-align: center;
+}
+
+#why>p{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+footer{
+    background-image: url("http://i1.faceprep.in/prograd-junior/black-background.png");
+    background-size: 100% 100%;
+    padding: 10% 0%;
+    color: white;
+}
+h1{
+    font-size: 250%;
+    margin-top: 5%;
+    text-align: center;
+}
+footer>p{
+    padding: 0% 20%;
+    text-align: center;
+    font-size: 125%;
+}
+.bar p{
+    color: white;
+}
